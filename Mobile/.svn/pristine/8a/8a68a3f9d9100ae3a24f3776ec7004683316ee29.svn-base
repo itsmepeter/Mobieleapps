@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>HelloWorld3 web</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="mobile.css" rel="stylesheet">
+    <script src="hello.js"></script> 
+</head>
+<body>
+<div class="container">
+    <h1>HelloWorld web</h1>
+    <div class="row">
+        <div class=".col-xs-2">
+            <p>What is your name? <input type="text" id="input"></p>
+            <p><button class="btn" onclick="sayHi()">OK</button></p>
+            <p id="hello"></p>
+        </div>
+    </div>
+</div> <!-- /container -->
+</body>
+</html>
